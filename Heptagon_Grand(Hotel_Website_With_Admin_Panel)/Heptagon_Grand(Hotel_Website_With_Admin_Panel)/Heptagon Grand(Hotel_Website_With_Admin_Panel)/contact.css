@@ -1,0 +1,74 @@
+.contact-container {
+  display: grid;
+  grid-template-rows: 10% 40% 40% 10%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+  background-color: grey;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.contact-container h2 {
+  color: white;
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+.main-contact label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.main-contact label,
+input {
+  display: block;
+  width: 500px;
+  margin: 1rem;
+  outline-style: none;
+}
+
+.main-contact input {
+  border: greenyellow solid 0.3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.sub-contact label,
+textarea {
+  display: block;
+  width: 500px;
+  margin: 1rem;
+  outline-style: none;
+}
+
+.sub-contact textarea {
+  border: greenyellow solid 0.3rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+.sub-contact label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.submit {
+  height: 100px;
+  width: 100%;
+}
+
+.submit input {
+  border-radius: 10px;
+  padding: 0.5rem;
+  outline-style: none;
+  background-color: greenyellow;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.submit input:hover {
+  background-color: green;
+}

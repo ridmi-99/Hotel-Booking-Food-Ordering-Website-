@@ -1,0 +1,94 @@
+.main-detail {
+  display: grid;
+  grid-template-rows: 10% 20% 40% 30%;
+  margin: 5% 20%;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 4rem;
+  color: greenyellow;
+}
+
+.main-detail p {
+  font-size: 2rem;
+}
+
+.main-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  text-align: center;
+  /* margin-top: 4rem; */
+  /* margin-bottom: 7rem; */
+  height: 20%;
+}
+.main-info h2 {
+  margin: 7.5px;
+}
+
+.main-description {
+  /* height: 400px; */
+}
+.other-extras {
+  /* margin-top: 10rem; */
+  height: 100%;
+  margin-bottom: 8rem;
+
+  /* height: 300px; */
+}
+.other-extras h1 {
+  text-align: center;
+  color: greenyellow;
+}
+
+.other-extras h2 {
+  margin: 10px;
+}
+
+.book-room {
+  text-align: center;
+  margin: 2rem;
+  border: solid greenyellow 0.5rem;
+  background-color: white;
+  font-size: 2rem;
+  color: greenyellow;
+}
+
+.book-room a {
+  text-decoration: none;
+}
+
+.book-room:hover {
+  background-color: greenyellow;
+  color: white;
+}
+
+/* .book-room a,
+h2 {
+  width: auto;
+  text-align: center;
+  justify-self: center;
+} */
+
+@media (max-width: 991px) {
+}
+@media (max-width: 450px) {
+  .main-detail {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .other-extras {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .main-detail {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .other-extras {
+    margin-top: 3rem;
+  }
+}
